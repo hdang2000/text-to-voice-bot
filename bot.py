@@ -5,7 +5,7 @@ from telegram import InputFile
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 from gtts import gTTS
 
-BOT_TOKEN = "8285368701:AAFrnDqoQQFaavcBbTzqWhr0KTbh-jTOEsE"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 # Ensure a folder exists to store voice files temporarily
 os.makedirs("voice_temp", exist_ok=True)
