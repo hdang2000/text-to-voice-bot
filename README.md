@@ -2,7 +2,7 @@
 
 This bot converts incoming text messages into voice notes using Google Text-to-Speech (`gTTS`) and Telegram Bot API.
 
-## 🚀 Setup Instructions (Local)
+## Setup Instructions (Local)
 
 1. Clone the repo:
    ```git clone https://github.com/hdang2000/text-to-voice-bot.git```
